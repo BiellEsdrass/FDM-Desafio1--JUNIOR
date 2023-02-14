@@ -1,0 +1,165 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffdfa;
+  font-family: "Inter", sans-serif;
+}
+
+.padSite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.navbar {
+  width: 1400px;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .navbar-menu ul {
+  display: flex;
+  gap: 2rem;
+  font-size: 15px;
+}
+.navbar .navbar-menu ul li, .navbar .navbar-menu ul a {
+  text-decoration: none;
+  list-style: none;
+  color: #5d5f79;
+  transition: all 0.5s;
+}
+.navbar .navbar-menu ul a:hover {
+  color: #f15e50;
+}
+
+.main {
+  display: flex;
+  margin-top: 2rem;
+}
+.main .main-left {
+  display: flex;
+  flex-direction: column;
+}
+.main .main-left img {
+  width: 94%;
+}
+.main .main-left .main-left__info {
+  padding-top: 2rem;
+  width: 96%;
+  display: flex;
+  gap: 7rem;
+}
+.main .main-left .main-left__info h1 {
+  font-size: 65px;
+  font-weight: 900;
+}
+.main .main-left .main-left__info .main-left__infoTwo p {
+  font-size: 20px;
+  color: #5d5f79;
+}
+.main .main-left .main-left__info .main-left__infoTwo button {
+  background-color: #f15e50;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  width: 190px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 100px;
+}
+.main .main-left .main-left__info .main-left__infoTwo button:hover {
+  background-color: #00001a;
+}
+.main .main-right {
+  display: flex;
+  flex-direction: column;
+  background-color: #00001a;
+  color: white;
+  width: 900px;
+  height: 630px;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.main .main-right h1 {
+  color: #e9ab53;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 40px;
+}
+.main .main-right p {
+  color: #8c8da4;
+  font-size: 18px;
+}
+.main .main-right .newOne h3 {
+  font-size: 20px;
+  transition: all 0.3s;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.main .main-right .newOne h3:hover {
+  color: #e9ab53;
+}
+.main .main-right .newTwo h3 {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.main .main-right .newTwo h3:hover {
+  color: #e9ab53;
+}
+.main .main-right .newThree h3 {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.main .main-right .newThree h3:hover {
+  color: #e9ab53;
+}
+.main .main-right .line {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(197, 198, 206, 0.4392156863);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.bottom img {
+  height: 15rem;
+}
+.bottom .sectionOne, .bottom .sectionTwo, .bottom .sectionThree {
+  display: flex;
+  gap: 1rem;
+}
+.bottom .sectionOne .text h1, .bottom .sectionTwo .text h1, .bottom .sectionThree .text h1 {
+  font-size: 38px;
+  color: rgba(140, 141, 164, 0.7098039216);
+  margin-bottom: 1rem;
+}
+.bottom .sectionOne .text h2, .bottom .sectionTwo .text h2, .bottom .sectionThree .text h2 {
+  font-size: 26px;
+}
+.bottom .sectionOne .text p, .bottom .sectionTwo .text p, .bottom .sectionThree .text p {
+  font-size: 18px;
+  color: #6e6f86;
+}/*# sourceMappingURL=style.css.map */

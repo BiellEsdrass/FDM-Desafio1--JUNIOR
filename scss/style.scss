@@ -1,0 +1,228 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//color primary
+$orange:#e9ab53;
+$red:#f15e50;
+
+
+//color secondary
+$offWhite:#fffdfa;
+$grayBlue:#c5c6ce;
+$darkBlue:#5d5f79;
+$veryDarkBlue:#00001a;
+
+
+body{
+    background-color: $offWhite;
+    font-family: 'Inter', sans-serif;
+}
+.padSite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+
+.navbar{
+    width: 1400px;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .navbar-icon img{
+        
+    }
+
+    .navbar-menu{
+        
+        ul{
+            display: flex;
+            gap: 2rem;
+            font-size: 15px;
+            
+            li, a{
+                text-decoration: none;
+                list-style: none;
+                color: #5d5f79;
+                transition: all .5s;
+            }
+
+            a:hover{
+                color: #f15e50;
+            }
+        }
+    }
+}
+
+.main{
+    display: flex;
+    margin-top: 2rem;
+
+
+    .main-left{
+        display: flex;
+        flex-direction: column;
+
+        img{
+            width: 94%;
+        }
+
+        .main-left__info{
+            padding-top: 2rem;
+            width: 96%;
+            display: flex;
+            gap: 7rem;
+
+            h1{
+                font-size: 65px;
+                font-weight: 900;
+            }
+
+
+            .main-left__infoTwo{
+                p{
+                    font-size: 20px;
+                    color: #5d5f79;
+                }
+
+                button{
+                    background-color: #f15e50;
+                    color: white;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    border: none;
+                    width: 190px;
+                    height: 50px;
+                    font-size: 18px;
+                    font-weight: 700;
+                    transition: all .5s;
+
+                    cursor: pointer;
+                    margin-top: 100px;
+
+                    &:hover{
+                        background-color: #00001a;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    .main-right{
+        display: flex;
+        flex-direction: column;
+        background-color: #00001a;
+        color: white;
+        width: 900px;
+        height: 630px;
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+
+        h1{
+            color: #e9ab53;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            font-size: 40px;
+        }
+        p{
+            color: #8c8da4;
+            font-size: 18px;
+        }
+
+        .newOne{
+            
+            h3{
+                font-size: 20px;
+                transition: all .3s;
+                margin-bottom: 1rem;
+                cursor: pointer;
+
+                &:hover{
+                    color: #e9ab53;
+                }
+            }
+        }
+        .newTwo{
+            
+            h3{
+                font-size: 20px;
+                margin-bottom: 1rem;
+                transition: all .3s;
+                cursor: pointer;
+
+                &:hover{
+                    color: #e9ab53;
+                }
+            }
+        }
+        .newThree{
+            
+            h3{
+                font-size: 20px;
+                margin-bottom: 1rem;
+                transition: all .3s;
+                cursor: pointer;
+
+                &:hover{
+                    color: #e9ab53;
+                }
+            }
+        }
+
+        .line{
+            height: 1px;
+            width: 100%;
+            background-color: #c5c6ce70;
+
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+    img{
+        height: 15rem;
+    }
+
+    .sectionOne, .sectionTwo, .sectionThree{
+        display: flex;
+        gap: 1rem;
+
+        .text{
+
+            h1{
+                font-size: 38px;
+                color: #8c8da4b5;
+                margin-bottom: 1rem;
+            }
+
+            h2{
+                font-size: 26px;
+            }
+
+            p{
+                font-size: 18px;
+                color: #6e6f86;
+            }
+        }
+    }
+}
