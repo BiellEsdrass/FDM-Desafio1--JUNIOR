@@ -13,6 +13,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | News homepage</title>
   <link rel="stylesheet" href="scss/style.css">
+  <!-- RESPONSIVO -->
+  <link rel="stylesheet" href="repon/respon.css">
 </head>
 <body>
   <div class="blackBack">
@@ -26,11 +28,11 @@
     <img src="assets/images/icon-menu-close.svg" id="iconMenuClose" alt="">
 
     <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">New</a></li>
-      <li><a href="">Popular</a></li>
+      <li><a  href="">Home</a></li>
+      <li><a href="#new">New</a></li>
+      <li><a href="#new">Popular</a></li>
       <li><a href="">Trending</a></li>
-      <li><a href="">Categories</a></li>
+      <li><a href="#catego">Categories</a></li>
     </ul>
   </div>
 
@@ -53,7 +55,7 @@
         <li><a href="">New</a></li>
         <li><a href="">Popular</a></li>
         <li><a href="">Trending</a></li>
-        <li><a href="">Categories</a></li>
+        <li><a href="#catego">Categories</a></li>
       </ul>
     </div>
   </nav>
@@ -62,7 +64,7 @@
 
 
   <!-- PRIMEIRA BOX -->
-  <main class="main">
+  <main class="main" id="new">
     <div class="main-left">
       
       <div class="main-left__img">
@@ -109,7 +111,7 @@
 
 
   <!-- SEGUNDA BOX -->
-  <div class="bottom">
+  <div class="bottom" id="catego">
     <div class="sectionOne">
       <div class="img">
         <img src="assets/images/image-retro-pcs.jpg" alt="">

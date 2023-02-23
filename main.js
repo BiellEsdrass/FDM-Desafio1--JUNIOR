@@ -4,6 +4,10 @@ let boxMenu = document.querySelector('.menuOpen');
 
 let backBlack = document.querySelector('.blackBack')
 
+let itemMenu = document.querySelector('#itemMenuOpen')
+
+
+
 function openMenu(){
     setTimeout( function(){
         boxMenu.style.display = "block"
